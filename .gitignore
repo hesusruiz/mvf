@@ -1,3 +1,4 @@
-/.gradle
-/.idea
-/data
+.gradle/
+.idea/
+data/
+buid/
