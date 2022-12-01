@@ -30,6 +30,7 @@ fun customDataRest() {
 
     // Registering a custom Credential Template
     VcTypeRegistry.register(JesusCredential.Companion, JesusCredential::class)
+    VcTypeRegistry.register(PacketDeliveryService.Companion, PacketDeliveryService::class)
 
     // Starting REST Services
     val bindAddress = "0.0.0.0"
